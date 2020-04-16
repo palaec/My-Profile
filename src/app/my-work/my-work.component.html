@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+
+        </ul>
+      </div>
+    </nav>
+
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+      <div>
+
+        <div *ngFor="let work of myWork">
+
+          <div class="row table-row shadow-sm p-3 mb-3 bg-white rounded">
+            <div class="col-2 table-icon-col">
+              <img src='../../assets/images/{{work.language}}.svg' alt='{{work.language}}.svg icon' class="work-icon">
+            </div>
+            <div class="col-10 table-details-col">
+              <div class="row">
+                <div class="col-sm-8 col-md-8">
+                  <h4>{{work.name}}</h4>
+                  {{work.description}}
+                </div>
+                <div class="col-sm-4 col-md-4 work-updated">-Last Updated on {{work.updated_at | date }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+
+  </div>
+</div>
