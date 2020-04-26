@@ -1,0 +1,46 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-myprofile-dev-201702-authRole",
+            "UnauthRoleArn": "arn:aws:iam::193633069261:role/amplify-myprofile-dev-201702-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::193633069261:role/amplify-myprofile-dev-201702-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-myprofile-dev-201702-deployment",
+            "UnauthRoleName": "amplify-myprofile-dev-201702-unauthRole",
+            "StackName": "amplify-myprofile-dev-201702",
+            "StackId": "arn:aws:cloudformation:eu-west-1:193633069261:stack/amplify-myprofile-dev-201702/219a5180-87ea-11ea-976b-0a62b96e8314",
+            "AmplifyAppId": "d1gsbnzq37wio"
+        },
+        "categories": {
+            "auth": {
+                "myprofile10ae68dc": {}
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-myprofile-prod-214458-authRole",
+            "UnauthRoleArn": "arn:aws:iam::193633069261:role/amplify-myprofile-prod-214458-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::193633069261:role/amplify-myprofile-prod-214458-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-myprofile-prod-214458-deployment",
+            "UnauthRoleName": "amplify-myprofile-prod-214458-unauthRole",
+            "StackName": "amplify-myprofile-prod-214458",
+            "StackId": "arn:aws:cloudformation:eu-central-1:193633069261:stack/amplify-myprofile-prod-214458/69e4d350-87f6-11ea-8a8b-06566fed0c82",
+            "AmplifyAppId": "d2jtvzevovly5u"
+        },
+        "categories": {
+            "auth": {
+                "myprofile10ae68dc": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"272880000553024\",\"client_secret\":\"b4efd146c0a8886aa16cddfd543b8e98\"},{\"ProviderName\":\"Google\",\"client_id\":\"396253502286-uvdt6p8ktp72g37ecuhq736pta02pks8.apps.googleusercontent.com\",\"client_secret\":\"x0dEQehExOGUHYGCVIbPPbgm\"},{\"ProviderName\":\"LoginWithAmazon\",\"client_id\":\"amzn1.application-oa2-client.abaf55ae58e74f04b958c0589abf8f0c\",\"client_secret\":\"a9ef9c48aac849b089ca69eaa6f6ce29b3d1dfa23202f9beacba9d2561050485\"}]"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2jtvzevovly5u",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}
